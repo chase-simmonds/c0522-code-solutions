@@ -1,0 +1,17 @@
+button:hover {
+  background-color: black;
+  color: white;
+}
+
+thead {
+  background-color: black;
+  color: white;
+}
+
+tbody {
+  background-color: #d2d2d2;
+}
+
+tr:nth-child(2n) {
+  background-color: white;
+}
