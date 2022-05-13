@@ -12,13 +12,14 @@ img {
   width: 100%;
 }
 
-.col-3 {
-  width: 100%;
+.col-third {
   flex-basis: calc(100% / 3);
 }
 
-.col-one-third {
-  display: flex;
-  width: 100%;
-  flex-basis: calc(300% / 3);
+.col-two-thirds {
+  flex-basis: calc(200% / 3);
+}
+
+.col-fourth {
+  flex-basis: 25%;
 }
