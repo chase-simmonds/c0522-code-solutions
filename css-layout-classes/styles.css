@@ -2,8 +2,6 @@
   max-width: 800px;
   margin-left: auto;
   margin-right: auto;
-  display: flex;
-  flex-wrap: wrap;
 }
 
 .row {
@@ -16,8 +14,11 @@ img {
 
 .col-3 {
   width: 100%;
+  flex-basis: calc(100% / 3);
 }
 
 .col-one-third {
+  display: flex;
   width: 100%;
+  flex-basis: calc(300% / 3);
 }
