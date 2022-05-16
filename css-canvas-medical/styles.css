@@ -1,0 +1,183 @@
+header {
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 2px solid #f4f5f6;
+  margin: 0 200px;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0 20px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #919191;
+}
+
+nav ul li a {
+  padding: 0 20px;
+  text-decoration: none;
+  font-family: Avenir, sans-serif;
+  font-size: smaller;
+  color: #b2b2b2;
+}
+
+.logo-blue {
+  max-width: 150px;
+  max-height: 150px;
+}
+
+.contact-us-btn {
+  padding: 10px 15px;
+  background-color: #284464;
+  color: #c9d0d8;
+  border-radius: 5px;
+}
+
+.container-1 {
+  display: flex;
+  background-image: url("images/hero.jpg");
+  background-image: cover;
+  flex-direction: row;
+  height: 500px;
+  margin: 50px 200px;
+  padding: 50px;
+}
+
+.container-2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.container-3 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.container-4 {
+  display: flex;
+  background-color: #525350;
+  padding: 25px 100px;
+}
+
+.padding {
+  padding: 25px 100px;
+}
+
+.address {
+  flex: 2;
+}
+
+.product {
+  flex: 1;
+}
+
+.button-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.company {
+  flex: 1;
+}
+
+.background-color-gray {
+  background-color: #fafafa;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+}
+
+.margin {
+  margin: 25px 50px;
+}
+
+.p-width-500 {
+  width: 500px;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.color-gray {
+  color: #c2c2c2;
+}
+
+.color-dark-gray {
+  color: #707070;
+}
+
+.col-half {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.col-half-2 {
+  flex-direction: column;
+  flex: 1;
+}
+
+.col-full {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.color-white {
+  color: white;
+}
+
+.get-started-btn {
+  padding: 10px 25px;
+  background-color: #284464;
+  color: #c9d0d8;
+  border-radius: 5px;
+  border: none;
+}
+
+h1,
+h4 {
+  font-family: "Tiempos Headline", sans-serif;
+}
+
+.font-size-h4 {
+  font-size: 28pt;
+  font-weight: 300;
+  margin-bottom: 15px;
+}
+
+p {
+  font-family: Avenir, sans-serif;
+}
+
+.footer {
+  display: flex;
+  background-color: #fafafa;
+  padding: 25px;
+  text-decoration: none;
+}
+
+.footer-link-pt {
+  margin: 25px;
+  font-family: Avenir, sans-serif;
+  padding: 0 0 0 200px;
+}
+
+.footer-link-cu {
+  margin: 25px;
+  font-family: Avenir, sans-serif;
+}
