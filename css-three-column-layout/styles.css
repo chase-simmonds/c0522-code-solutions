@@ -28,16 +28,15 @@ img {
 
 p {
   margin: auto;
-  width: 75%;
-  opacity: 0.6;
-  display: block;
+  padding: 0 10px 10px;
+  color: #d0e8f7;
   font-size: 75%;
   text-align: center;
 }
 
 h4 {
   text-align: center;
-  opacity: .9;
+  color: #daeef9;
 }
 
 .marketing-container {
@@ -46,11 +45,15 @@ h4 {
 
 .col-third {
   display: flex;
+}
+
+.col-third-styling {
   align-items: center;
   justify-content: center;
-  flex-wrap: wrap;
   flex-direction: column;
   flex-basis: calc(100% / 3);
+  width: 100%;
+  padding: 0 20px;
 }
 
 .col-full {
