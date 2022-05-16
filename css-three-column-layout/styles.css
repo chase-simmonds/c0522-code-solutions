@@ -44,7 +44,7 @@ h4 {
 }
 
 .col-third {
-  display: flex;
+  flex-basis: calc(100% / 3);
 }
 
 .col-third-styling {
