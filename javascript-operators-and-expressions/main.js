@@ -26,7 +26,7 @@ var firstName = 'Chase';
 var lastName = 'Simmonds';
 var fullName = firstName + ' ' + lastName;
 console.log('My full name is:', fullName);
-console.log('The type of of fullName is:', fullName);
+console.log('The type of fullName is:', fullName);
 
 var pH = 9.5;
 var isAcidic = pH < 7;
