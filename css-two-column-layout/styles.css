@@ -11,8 +11,11 @@
   line-height: 2;
 }
 
-.container-2 {
+.container {
   display: flex;
+}
+
+.container-styling {
   justify-content: center;
   align-items: center;
   margin: auto;
