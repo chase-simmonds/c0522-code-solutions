@@ -1,7 +1,5 @@
 .row {
   display: flex;
-  flex-basis: auto;
-  justify-content: center;
   background-color: #1996da;
   padding-bottom: 25px;
 }
@@ -30,7 +28,7 @@ p {
   margin: auto;
   padding: 0 10px 10px;
   color: #d0e8f7;
-  font-size: 75%;
+  font-size: 12px;
   text-align: center;
 }
 
@@ -43,16 +41,7 @@ h4 {
   display: flex;
 }
 
-.col-third {
-  flex-basis: calc(100% / 3);
-}
-
 .col-third-styling {
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  flex-basis: calc(100% / 3);
-  width: 100%;
   padding: 0 20px;
 }
 
@@ -68,6 +57,11 @@ h4 {
   align-items: center;
   height: 100px;
   width: 100px;
+}
+
+.circle-container {
+  display: flex;
+  justify-content: center;
 }
 
 .padding {
