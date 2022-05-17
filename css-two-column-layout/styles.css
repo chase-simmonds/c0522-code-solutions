@@ -36,18 +36,11 @@
   flex-wrap: wrap;
 }
 
-.description {
-  display: flex;
-  flex-basis: 50%;
+p.description {
+  width: 250px;
 }
 
-.text {
-  display: flex;
-  flex-direction: column;
-  flex-basis: 50%;
-}
-
-.font-family {
+body {
   font-family: Karla, sans-serif;
 }
 
