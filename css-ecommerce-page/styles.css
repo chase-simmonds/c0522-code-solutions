@@ -1,0 +1,54 @@
+body {
+  font-family: "DS Sans", sans-serif;
+}
+
+.container {
+  max-width: 75%;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+}
+
+.col-fifth {
+  flex-basis: 20%;
+  justify-content: center;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.col-full {
+  flex-basis: 100%;
+}
+
+img {
+  max-width: 75%;
+  margin: 1rem;
+}
+
+span {
+  color: #d4d4d4;
+}
+
+.sale-price {
+  background-color: #fff2e7;
+  color: black;
+}
+
+.resize {
+  object-fit: cover;
+  max-height: 400px;
+  padding-top: 35px;
+}
+
+.img-margin {
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+.strike {
+  text-decoration: line-through;
+}
