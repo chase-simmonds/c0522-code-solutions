@@ -56,6 +56,7 @@ nav ul li a {
 .container-3 {
   display: flex;
   justify-content: space-around;
+  width: ;
 }
 
 .container-4 {
@@ -180,4 +181,10 @@ p {
 .footer-link-cu {
   margin: 25px;
   font-family: Avenir, sans-serif;
+}
+
+.overlay {
+  height: 100%;
+  width: 100%;
+  background: gray;
 }
