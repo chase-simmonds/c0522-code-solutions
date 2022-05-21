@@ -1,5 +1,6 @@
 body {
   font-family: "DS Sans", sans-serif;
+  align-items: center;
 }
 
 .container {
@@ -13,7 +14,6 @@ body {
 
 .col-fifth {
   flex-basis: 20%;
-  justify-content: center;
 }
 
 .center-text {
@@ -44,15 +44,18 @@ span {
   padding-top: 35px;
 }
 
-.img-margin {
-  margin-left: -10px;
-  margin-right: -10px;
-}
-
 .strike {
   text-decoration: line-through;
 }
 
 .content-center {
   justify-content: center;
+}
+
+p {
+  margin-left: 15px;
+}
+
+h1 {
+  text-align: center;
 }
