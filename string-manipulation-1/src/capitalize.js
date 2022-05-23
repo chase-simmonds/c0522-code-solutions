@@ -3,8 +3,15 @@ function capitalize(word) {
   return word.charAt(0).toUpperCase() + word.slice(1).toLowerCase();
 }
 
-/* Define a function named capitalize passing one parameter word. In the codeblock
-need to use uppercase method attached to the first character using the charat method
-which is on the word object. Then lowercase the rest of the word but using lower
-case method targeting the second character onward using the slice method, attached
-to the same word value. concatenate the two together, which is then returned. */
+/* Define a function named capitalize passing one parameter word.
+
+Capitalize first letter using toUpperCase method on the first character of
+the word object.
+
+Slice the word from the index 1 onward using slice method.
+
+Convert to lower case using lowercase method.
+
+Concatenate result from each together.
+
+Return the result. */
