@@ -7,8 +7,11 @@ function isUpperCased(word) {
   }
 }
 
-/* Declare the function and pass through the parameter word. Take word and
-capitalize it using the uppercase method. Then I tkae the value of the word
-completely uppercased and compare it to it's original value using strictly equal.
-If that's true it will to return true. Use else statement to return false
-if it isn't a strict match. */
+/* declare function with one parameter word.
+
+in the codeblock, have if statement that strictly compare the value of the word
+to itself completely capitalized (using uppercase method)
+
+if value is strictly equal, return true.
+
+if it is not strictly equal, return false */

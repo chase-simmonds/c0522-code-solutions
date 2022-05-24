@@ -6,7 +6,11 @@ function isLowerCased(word) {
     return false;
   }
 }
-/* In this function I'm using an if statement to take the word it's given,
-convert it to lowercase using the tolowercase method. Then I compare the original
-word with the word completely lowercased. If the they match, it returns true, but
-if it doesn't it returns false. */
+/* declare function with one parameter word.
+
+in the codeblock, have if statement that strictly compare the value of the word
+to itself completely lower cased (using lowercase method)
+
+if the value is strictly equal, return true.
+
+if it is not strictly equal, return false */

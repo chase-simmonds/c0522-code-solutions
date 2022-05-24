@@ -3,7 +3,7 @@ function capitalize(word) {
   return word.charAt(0).toUpperCase() + word.slice(1).toLowerCase();
 }
 
-/* Define a function named capitalize passing one parameter word.
+/* Define a function named capitalize passing one parameter.
 
 Capitalize first letter using toUpperCase method on the first character of
 the word object.

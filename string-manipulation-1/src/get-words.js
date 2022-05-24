@@ -7,7 +7,9 @@ function getWords(string) {
   }
 }
 
-/* Delcare a function getWords with parameter string. In the code block use
-if statement to compare value of string strictly to empty array. If it matches,
-it will return an empty array. If it doesn't it will return the string which is
-split using the split method at space (the separator of words). */
+/* Declare a function with one parameter string.
+
+if statement in code block with the condition string is strictly equal to an
+empty string, then return empty array.
+
+If it's anything else, return the string split at space. */

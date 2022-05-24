@@ -7,7 +7,10 @@ function isVowel(char) {
   } else return false;
 }
 
-/* Declare a function isvowel and pass parameter char. Use if statement to compare
-each character with all the vowels. Need to use bunch of or statements
-to strictly compare their value to each vowel. Need to account for both uppercase
-and lowercase. If they match return true. If not, return false. */
+/* declare function with one parameter
+
+use if statement to compare char against each vowel, both upper and lower case.
+
+if char is strictly equal to vowel value, return true.
+
+If not, return false. */
