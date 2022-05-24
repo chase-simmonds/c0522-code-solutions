@@ -1,15 +1,16 @@
-var $userClicks = 0;
-var $bulb = document.querySelector('.bulb');
+var $isOn = true;
+var $bulb = document.querySelector('.bulb-on');
 var $room = document.querySelector('body');
 
 function lightSwitch(event) {
-  ++$userClicks;
-  if ($userClicks % 2 === 0) {
-    $bulb.className = 'bulb';
+  if ($isOn === true) {
+    $bulb.className = 'bulb-on';
     $room.className = 'bright-room';
+    $isOn = false;
   } else {
     $bulb.className = 'bulb-off';
     $room.className = 'dark-room';
+    $isOn = true;
   }
 }
 
