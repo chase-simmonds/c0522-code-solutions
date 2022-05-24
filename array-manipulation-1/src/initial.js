@@ -7,20 +7,13 @@ function initial(array) {
   return newArray;
 }
 
-/* define function initial with one parameter array. in the code block for the
-function, declare an empty array named newArray. There's a for loop initializing
-at 0, the first index.
+/* define function with one parameter.
 
-for example, the array will be [foo, bar, baz]. initializing at zero, then checks
-the condition that 0 is less than the length of the array - 1. It is, so it will
-execute the code in the loop block. It will push the current value index 0 (foo)
-to the new array. i is then incremeneted by 1, which is now 1.
+create empty array to hold values from for loop.
 
-The value of 1 is checked against the condition, which 1 is less than the length
-of the array -1. The code in the loop block is then executed again, which pushes
-the value of array at index 1 (bar) to the newArray. i is then incremented by 1,
-which causes the value to go up to 2.
+initiate for loop at 0, condition as long as i is less than the length of the area
+minus 1. increment i.
 
-The value of i (2) is now checked against the condition. 2 is not less than the
-length of the array -1, so the loop block is not reran. Instead, it will return
-the value of newArray, which is [foo, bar]. */
+push the value of array at into new array.
+
+return value of newarray. */
