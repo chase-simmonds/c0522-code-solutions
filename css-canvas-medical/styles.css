@@ -1,0 +1,195 @@
+.container {
+  max-width: 75%;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+}
+
+.col-full {
+  width: 100%;
+}
+
+button {
+  border-style: none;
+  border-radius: 5%;
+  background-color: #294464;
+  color: white;
+}
+
+.logo-img {
+  max-height: 150px;
+  max-width: 150px;
+  align-self: center;
+}
+
+.gray-bar {
+  border-bottom: 2px solid #e7e9ec;
+}
+
+.col-half {
+  width: 50%;
+}
+
+.nav-list {
+  list-style-type: none;
+  display: inline;
+}
+
+.nav-hf li {
+  display: inline;
+  margin-left: 20px;
+}
+
+.nav-list a {
+  text-decoration: none;
+}
+
+.nav-list li {
+  margin-bottom: 15px;
+}
+
+.button {
+  list-style-type: none;
+  border-style: none;
+  border-radius: 5px;
+  background-color: #294464;
+  padding: 10px 20px;
+  color: white;
+  text-decoration: none;
+}
+
+.body-button {
+  padding: 15px 40px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.body-font-size {
+  font-size: 18px;
+}
+
+.col-40 {
+  width: 40%;
+}
+
+.hero-text {
+  color: #e3e6ea;
+}
+
+.hero-img {
+  width: 100%;
+  background-image: url("images/hero.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 650px;
+}
+
+.hero-margin {
+  margin-bottom: 40px;
+}
+
+.position-absolute {
+  position: absolute;
+}
+
+.position-relative {
+  position: relative;
+}
+
+.overlay {
+  background: #525350;
+  opacity: 0.4;
+  width: 100%;
+  height: 100%;
+}
+
+.col-third {
+  width: calc(100% / 3);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.col-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.col-margin {
+  margin: 70px;
+}
+
+.margin-sides {
+  margin: 0 70px;
+}
+
+.section-margin {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.section-padding {
+  padding: 10px 0;
+}
+
+.clinic-margin {
+  margin-bottom: 70px;
+}
+
+.font-avenir {
+  font-family: Avenir, sans-serif;
+}
+
+.font-tiempos {
+  font-family: Tiempos, serif;
+}
+
+.dark-gray-text {
+  color: #6e6e6e;
+}
+
+.light-gray-text {
+  color: #bcbcbb;
+}
+
+.light-gray-background {
+  background-color: #fafafa;
+}
+
+.dark-gray-background {
+  background-color: #525351;
+}
+
+.white-text {
+  color: white;
+}
