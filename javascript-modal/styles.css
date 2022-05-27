@@ -1,0 +1,51 @@
+.open-button {
+  width: 160px;
+  height: 40px;
+  color: white;
+  background-color: #4a4ae9;
+  border-radius: 5px;
+  border: none;
+  font-size: 16pt;
+  box-shadow: 0 2px 2px gray;
+}
+
+.no-button {
+  width: 100px;
+  height: 35px;
+  color: white;
+  background-color: #eb5d5d;
+  border-radius: 5px;
+  border: none;
+  font-size: 16pt;
+  box-shadow: 0 2px 2px gray;
+}
+
+.hide-modal {
+  display: none;
+}
+
+.show-modal {
+  display: block;
+}
+
+.modal {
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0 0 0 / 67.9%);
+}
+
+.pop-up {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border-radius: 5px;
+  width: 400px;
+  height: 150px;
+  text-align: center;
+}
