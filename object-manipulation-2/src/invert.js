@@ -11,7 +11,7 @@ function invert(source) {
 //
 // create empty object to hold values
 //
-// for in loop that looks for keys in source
+// for in loop that loops through key(s) in source
 //
 // assign the source at key of the empty object to the value of key
 //
