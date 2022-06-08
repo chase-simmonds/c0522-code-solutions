@@ -12,5 +12,4 @@ function countdown() {
   }
 }
 
-setInterval(countdown, 1000);
-clearInterval(setInterval(countdown, 1000));
+countdownId = setInterval(countdown, 1000);
