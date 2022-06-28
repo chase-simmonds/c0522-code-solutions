@@ -24,7 +24,7 @@ const jokester = {
     return $phrase;
   },
   appendJokePhrase: $phrase => {
-    return $jokeContainer.append($phrase);
+    $jokeContainer.append($phrase);
   }
 };
 
