@@ -1,0 +1,139 @@
+    1  git switch string-manipulation-3
+    2  git branch string-manipulation-3
+    3  git switch string-manipulation-3
+    4  git status
+    5  git add string-manipulation-3
+    6  git status
+    7  git commit -m "first two problems complete"
+    8  git switch main
+    9  git switch array-manipulation-3
+   10  git branch array-manipulation-3
+   11  git switch array-manipulation-3
+   12  git status
+   13  git add array-manipulation-3
+   14  git status
+   15  git commit -m "not complete"
+   16  git switch main
+   17  git branch es6-const-let
+   18  git switch es6-const-let
+   19  git status
+   20  git add es6-const-let
+   21  git status
+   22  git commit -m "es6-const-let - Chase Simmonds"
+   23  git push origin es6-const-let
+   24  git switch main
+   25  git pull origin main
+   26  git branch es6-template-literals
+   27  git switch es6-template-literals
+   28  git status
+   29  git add es6-template-literals
+   30  git status
+   31  git commit -m "es6-template-literals - Chase Simmonds"
+   32  git push origin es6-template-literals
+   33  git switch main
+   34  git pull origin main
+   35  git branch es6-destructuring
+   36  git switch es6-destructuring
+   37  git status
+   38  git add es6-destructuring
+   39  git status
+   40  git commit -m "es6-destructuring - Chase Simmonds"
+   41  git push origin es6-destructuring
+   42  git switch main
+   43  git pull origin main
+   44  git switch array-manipulation-3
+   45  git status
+   46  git switch main
+   47  git commit -m "finished flatten"
+   48  git switch main
+   49  git status
+   50  git add array-manipulation-3/src/flatten.js
+   51  git status
+   52  git commit -m "completed flatten"
+   53  git switch main
+   54  git switch javascript-carousel
+   55  git switch main
+   56  git pull origin main
+   57  git branch es6-arrow-functions
+   58  git switch es6-arrow-functions
+   59  git status
+   60  git add es6-arrow-functions
+   61  git status
+   62  git commit -m "es6-arrow-functions - Chase Simmonds"
+   63  git push origin es6-arrow-functions
+   64  git status
+   65  git add es6-arrow-functions
+   66  git status
+   67  git commit -m "removed return keyword I addedon line 27"
+   68  git push origin es6-arrow-functions
+   69  git switch main
+   70  git pull origin main
+   71  git pull origin main
+   72  git branch command-line-basics
+   73  git switch command-line-basics
+   74  cd command-line-basics
+   75  man man
+   76  man cat
+   77  cat laziness.txt
+   78  cat impatience.txt
+   79  cat hubris.txt
+   80  cat laziness.txt impatience.txt hubris.txt
+   81  cat laziness.txt impatience.txt hubris.txt > three-virtues.txt
+   82  cat three-virtues.txt
+   83  man ls
+   84  ls
+   85  ls lfz-staff
+   86  ls lfz-staff/
+   87  ls -a lfz-staff/
+   88  ls -F
+   89  ls -F lfz-staff/
+   90  ls -F lfz-staff
+   91  ls -aF lfz-staff
+   92  ls -aF lfz-staff > lfz-staff/contents.txt
+   93  cat lfz-staff/contents.txt
+   94  man pwd
+   95  pwd
+   96  pwd > i-was-here.txt
+   97  ls
+   98  cat i-was-here.txt
+   99  ls i-was-here.txt
+  100  man echo
+  101  man echo
+  102  echo 'Hello, World!'
+  103  echo 'Hello, World!' > hello.txt
+  104  ls
+  105  cat hello.txt
+  106  man touch
+  107  touch tag-youre-it.txt
+  108  ls
+  109  touch snoot/boop.txt
+  110  ls snoot
+  111  man mkdir
+  112  mkdir parent
+  113  ls mkdir
+  114  ls
+  115  mkdir -p parent/child/grandchild
+  116  touch parent/child/granschild/.gitkeep
+  117  ls -a
+  118  touch parent/child/grandchild/.gitkeep
+  119  ls -a
+  120  ls
+  121  ls -a
+  122  ls parent/child/grandchild
+  123  ls -a parent/child/grandchild
+  124  man mv
+  125  mv pokiemans pokemon
+  126  ls
+  127  man rm
+  128  rm lol.txt
+  129  ls
+  130  rm -r kill-me/
+  131  ls
+  132  man cp
+  133  cp and-then.txt no-and-then.txt
+  134  ls
+  135  cat and-then.txt
+  136  cat no-and-then.txt
+  137  man history
+  138  history
+  139  history > command-history.txt
