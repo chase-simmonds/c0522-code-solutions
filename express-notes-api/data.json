@@ -1,5 +1,5 @@
 {
-  "nextId": 12,
+  "nextId": 13,
   "notes": {
     "2": {
       "id": 2,
@@ -16,14 +16,6 @@
     "9": {
       "id": 9,
       "content": "Inertia is a property of matter."
-    },
-    "10": {
-      "content": "Shrek is my best friend",
-      "id": 10
-    },
-    "11": {
-      "content": "They call me Shrektachi",
-      "id": 11
     }
   }
 }

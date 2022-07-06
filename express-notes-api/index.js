@@ -55,7 +55,16 @@ app.delete('/api/notes/:id', (req, res) => {
   } else if (!notes[id]) {
     res.status(404).send({ error: 'cannot find note with id ' + id });
   } else if (notes[id]) {
-    // placeholder
+    delete notes[id];
+    const prettyJSON = JSON.stringify(dataJSON, null, 2);
+    fs.writeFile('data.json', prettyJSON, 'utf-8', err => {
+      if (err) {
+        console.error(err);
+        res.status(500).send({ error: 'An unexpected error occurred' });
+      } else {
+        res.status(204).send();
+      }
+    });
   }
 });
 
