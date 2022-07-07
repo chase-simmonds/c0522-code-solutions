@@ -3,9 +3,9 @@ const app = express();
 
 let nextId = 1;
 const grades = {};
-const gradesArray = [];
 
 app.get('/api/grades', (req, res) => {
+  const gradesArray = [];
   for (const key in grades) {
     gradesArray.push(grades[key]);
   }
