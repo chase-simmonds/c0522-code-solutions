@@ -15,5 +15,3 @@ const prices = numbers.map(x => `$${x}.00`);
 const upperCased = languages.map(words => words.toUpperCase());
 
 const firstLetters = languages.map(words => words.charAt(0));
-
-console.log(firstLetters);
