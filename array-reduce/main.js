@@ -21,7 +21,7 @@ const sum = numbers.reduce((previous, current) => previous + current);
 
 const product = numbers.reduce((previous, current) => previous * current);
 
-const balance = account.reduce((total, current) => {
+const balance = account.reduce((total, account) => {
   if (account.type === 'deposit') {
     return total + account.amount;
   } else if (account.type === 'withdrawal') {
