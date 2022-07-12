@@ -1,11 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 
-const reactHeader = React.createElement(
-  'h1',
-  null,
-  'Hello, React!'
-);
+const reactHeader = React.createElement('h1', null, 'Hello, React!');
 
 console.log(reactHeader);
 
