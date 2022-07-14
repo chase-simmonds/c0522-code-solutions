@@ -23,7 +23,13 @@ class CustomButton extends React.Component {
   }
 }
 
+const element = (
+  <div>
+    <CustomButton />
+  </div>
+);
+
 const container = document.querySelector('#root');
 const root = ReactDOM.createRoot(container);
 
-root.render(<CustomButton />);
+root.render(element);
