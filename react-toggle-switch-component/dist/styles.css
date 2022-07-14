@@ -1,0 +1,48 @@
+.row {
+  display: flex;
+}
+
+.text {
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding-left: 1.5rem;
+  padding-top: 1rem;
+}
+
+.switch-off {
+  width: 6rem;
+  height: 3rem;
+  background-color: #e2e2e2;
+  border-radius: 30px;
+  border: 3px black solid;
+}
+
+.switch-on {
+  width: 6rem;
+  height: 3rem;
+  background-color: green;
+  border-radius: 30px;
+  border: 3px black solid;
+}
+
+.circle-on {
+  height: 2.9rem;
+  width: 3rem;
+  background-color: white;
+  border-radius: 30px;
+  padding-left: 1;
+  border: 1px black solid;
+  position: relative;
+  right: 1px;
+}
+
+.circle-off {
+  height: 2.9rem;
+  width: 3rem;
+  background-color: white;
+  border-radius: 30px;
+  padding-left: 1;
+  border: 1px black solid;
+  position: relative;
+  left: 47px;
+}
