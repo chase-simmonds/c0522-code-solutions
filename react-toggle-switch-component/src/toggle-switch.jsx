@@ -23,7 +23,7 @@ class ToggleSwitch extends React.Component {
           <div className="switch-on" onClick={this.turnOff}>
             <div className="circle-on"></div>
           </div>
-          <div className="text">ON</div>
+          <div className="text" onClick={this.turnOff}>ON</div>
         </div>
       );
     } else if (this.state.toggleSwitch === false) {
@@ -32,7 +32,7 @@ class ToggleSwitch extends React.Component {
           <div className="switch-off" onClick={this.turnOn}>
             <div className="circle-off"></div>
           </div>
-          <div className="text">OFF</div>
+          <div className="text" onClick={this.turnOn}>OFF</div>
         </div>
       );
     }
