@@ -1,0 +1,35 @@
+button {
+  width: 6rem;
+  height: 2rem;
+  border: 2px solid black;
+}
+
+.freeze {
+  background-color: #351c75;
+  color: white;
+}
+
+.cold {
+  background-color: #674ea7;
+  color: white;
+}
+
+.luke {
+  background-color: #e06666;
+  color: white;
+}
+
+.warm {
+  background-color: #f6b26b;
+  color: black;
+}
+
+.hot {
+  background-color: #fbff00;
+  color: black;
+}
+
+.nuclear {
+  background-color: #fff;
+  color: black;
+}
