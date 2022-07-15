@@ -1,0 +1,26 @@
+.row {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle {
+  background-color: transparent;
+  height: 25rem;
+  width: 25rem;
+  border-radius: 50%;
+  border: 5px black solid;
+  text-align: center;
+  line-height: 25rem;
+  font-size: 4rem;
+}
+
+.timer {
+  color: black;
+}
+
+i {
+  font-size: 4rem;
+  padding-top: 3rem;
+}
