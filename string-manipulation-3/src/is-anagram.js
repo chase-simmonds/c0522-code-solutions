@@ -23,13 +23,13 @@ function isAnagram(firstString, secondString) {
   let newFirstString = '';
   let newSecondString = '';
 
-  for (var i = 0; i < firstString.length; i++) {
+  for (let i = 0; i < firstString.length; i++) {
     if (firstString[i] !== ' ') {
       newFirstString += firstString[i];
     }
   }
 
-  for (var k = 0; k < secondString.length; k++) {
+  for (let k = 0; k < secondString.length; k++) {
     if (secondString[k] !== ' ') {
       newSecondString += secondString[k];
     }
