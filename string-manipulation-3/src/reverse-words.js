@@ -24,8 +24,8 @@ function reverseWords(string) {
   let reverseString = '';
   const stringArray = string.split(' ');
 
-  for (var i = 0; i < stringArray.length; i++) {
-    var word = stringArray[i].split('').reverse().join('');
+  for (let i = 0; i < stringArray.length; i++) {
+    const word = stringArray[i].split('').reverse().join('');
     reverseArray.push(word);
   }
   reverseString = reverseArray.join(' ');
