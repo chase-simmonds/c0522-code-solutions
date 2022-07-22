@@ -67,7 +67,7 @@ If truthy, the div on the homepage is rendered which contains the Rick Roll.
 
 USER CAN STAY SIGNED IN (EVEN IF THEY REFRESH THE PAGE).
 
-When the user reloads the page, their login token is stored in local storage.
+When the user reloads the page, their login token is still stored in local storage.
 
 The page will render without using the token and with the user object as null
 
