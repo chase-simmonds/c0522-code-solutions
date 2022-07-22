@@ -1,0 +1,119 @@
+USER CAN SIGN UP.
+
+When a user visits the site, they will be taken to the log in page by default,
+which is represented by the sign-up hash.
+
+When user clicks 'register now' link or 'sign up' button, event listener fires,
+page is rerendered, hash changes, new welcome message, log in button changes to
+'register'. As user types in username and password, page rerenders with each
+keystroke.
+
+When the user clicks 'register' button a network request is sent to /api/auth/sign-up
+using POST method.
+
+Username and password become a stringified JSON object.
+
+When the server receives the request, it checks if the user fails to provide a
+username and/or password, a Client Error is thrown with 400 status code and error
+message.
+
+If both fields are supplied, the password is hashed, then the username and the
+password are inserted into the users table.
+
+The server will respond with a 201 status code, the userId, username, and
+createdAt information about the user to the client.
+
+This causes the hash of the location to change to sign-in
+
+React rerenders the page to show the log in form.
+
+The page is rendered with the path 'sign-in', which returns the Auth component
+
+
+USER CAN SIGN IN.
+
+After the page is rendered, componentDidMount function is called.
+
+As the user begins typing in their credentials, the page is rerendered with each
+key stroke.
+
+When 'log in' is clicked, the client sends the stringified JSON object as a
+network request to /api/auth/sign-in using the POST method.
+
+If there is no username and/or password, it will throw a Client Error with a 401
+status code and an error message.
+
+It will check the database for matching credentials and will throw a Client Error
+with a 401 status code and error message if there are no matching credentials.
+
+If the credentials match what's in the database, the server will respond to the
+client with a signed token that includes the userId, username, and token secret.
+
+This information is saved into local storage for future network requests.
+
+The page is rendered again based on the response from the server using setState
+with the user object as the argument.
+
+The homepage is rendered and it checks to see if this.context.user is truthy or
+falsey.
+
+If falsey, the page will change the hash location, sign-in path redirect to sign
+in page.
+
+The sign in page will render, which will also render the auth form.
+
+If truthy, the div on the homepage is rendered which contains the Rick Roll.
+
+
+USER CAN STAY SIGNED IN (EVEN IF THEY REFRESH THE PAGE).
+
+When the user reloads the page, their login token is still stored in local storage.
+
+The page will render without using the token and with the user object as null
+
+After the page is done rendering, the componentDidMount method is called.
+
+The token is either parsed into a user object or the user object will be changed
+to null.
+
+The setState method is called and rerenders the page.
+
+If the the user object is null, the home page is rerendered because the path is
+an empty string.
+
+The home page will check to see if there's a user object
+
+The redirect component changes the URL, which includes a path name that will
+contain a hash.
+
+Since the URL is replaced, the page will render the site in the 'sign-in' state
+
+This causes the the auth and auth forms to render via the sign-in path.
+
+If there is a user object, the home page will render which returns the div
+containing the Rick Roll.
+
+
+USER CAN SIGN OUT.
+
+When the user clicks the 'sign out' button, the token is removed from
+local storage.
+
+The state of the page is changed through the setState method and the user object
+is set to null.
+
+Because the user object is set to null, the page will render with the auth forms
+via the sign-in path.
+
+The home page is then rerendered.
+
+The home page checks to see if there is a user object, but since the user object
+no longer exists, the redirect component changes the URL hash.
+
+The page will render again and change the route to 'sign-in'.
+
+This causes the page to render the auth and auth forms via the sign-in path.
+
+The page is now rerendered to display the log in page.
+
+The user is prompted to log in if they want to continue.
