@@ -23,9 +23,9 @@ password are inserted into the users table.
 The server will respond with a 201 status code, the userId, username, and
 createdAt information about the user to the client.
 
-React rerenders the page to show the log in form.
-
 This causes the hash of the location to change to sign-in
+
+React rerenders the page to show the log in form.
 
 The page is rendered with the path 'sign-in', which returns the Auth component
 
